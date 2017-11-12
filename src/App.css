@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  background: #ffffff;
+  border-top: 2px solid #1080f2;
+  min-height: 50px;
+  border-bottom: 1px solid #e0e5ec; }
+  .navbar .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px; }
+    .navbar .container-fluid .navbar-header {
+      float: left;
+      padding-top: 4px; }
+      .navbar .container-fluid .navbar-header > a {
+        color: #1080f2;
+        padding: 8px 0px 8px 0px;
+        display: inline-block;
+        font-size: 18px;
+        position: relative; }
+    .navbar .container-fluid .navbar-platform .navbar-nav {
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .navbar .container-fluid .navbar-platform .navbar-nav > .active > a {
+        color: #1080f2; }
+      .navbar .container-fluid .navbar-platform .navbar-nav > li {
+        float: left;
+        display: block; }
+        .navbar .container-fluid .navbar-platform .navbar-nav > li > a {
+          display: block;
+          color: #273140;
+          opacity: 0.7;
+          font-size: 14px;
+          padding: 15px; }
